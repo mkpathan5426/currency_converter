@@ -11,13 +11,14 @@
         text-align: center;
         background-color: black;
         color: white;
+        text-shadow: 3px 3px 5px rgb(202, 198, 172);
         padding: 20px;
     }
 
-    h2, label, .exchange, button, p, .msg {
+    label, .exchange, button, p, .msg {
         text-shadow: 3px 3px 5px rgb(83, 81, 68);
     }
-    
+
     input {
         margin: 10px 0;
     }
