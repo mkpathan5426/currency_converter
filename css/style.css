@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.drop-down {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.select-container select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.drop-down p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.drop-down img {
+    width: 2.5rem;
+}
+
+.exchange img {
+    width: 2rem;
+    position: relative;
+    top: 15px;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: rgb(88, 180, 184);
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.msg {
+    width: auto;
+    margin: 20px auto;
+    background-color: rgb(8, 204, 74);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 0.5rem;
+    height: 40px;
+}
