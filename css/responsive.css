@@ -3,29 +3,31 @@
         width: 100vw;
         height: 100vh;
         border-radius: 0;
+        padding: 0px;
     }
 
     .container h2 {
         margin-bottom: 30px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 20px;
     }
 
-    h2, label, button, p, .msg {
+    h2, label, .exchange, button, p, .msg {
         text-shadow: 3px 3px 5px rgb(83, 81, 68);
     }
+    
     input {
         margin: 10px 0;
     }
 
-    input, .drop-down, .msg, button {
-        box-shadow: 3px 3px 5px 5px gray;
-    }
-
-    .msg {
+    input, .select-container, .drop-down, .msg, button {
         box-shadow: 3px 3px 5px 5px gray;
     }
 
     .drop-down {
-        height: 30vh;
+        height: 25vh;
         background-color: rgb(231, 218, 200);
         border-radius: 0.5rem;
         margin: 0;
@@ -50,5 +52,18 @@
         font-size: 11px;
         padding: 5px;
         border-radius: 0.5rem;
+    }
+
+    button {
+        margin: 0;
+        width: calc(100% - 40px);
+    }
+    
+    .amount, .drop-down, .msg, button {
+        margin: 20px;
+    }
+
+    button {
+        margin-top: 0;
     }
 }

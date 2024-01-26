@@ -54,6 +54,7 @@ const updateExchangeRate = async () => {
     let data = await response.json();
     let rate = data[toCurrency.value.toLowerCase()];
     let finalAmount = amountValue * rate;
+    finalAmount
     msg.innerText = `${amountValue} ${fromCurrency.value} = ${finalAmount} ${toCurrency.value}`;
 }
 
